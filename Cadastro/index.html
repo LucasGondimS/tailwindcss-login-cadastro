@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cadastro</title>
+</head>
+
+<body class="min-h-screen items-center justify-center">
+    <div class="mx-auto flex-col max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline-black/5">
+        <div>
+            <div class="text-xl font-bold text-center text-black">Criar Conta</div>
+            <p class="text-gray-500 font-medium text-center dark:text-gray-400">Preencha seus dados</p>
+        </div>
+        <form class=" gap-y-3 items-center flex flex-col text-center">
+            <div class="flex-col">
+                <label class=" text-left block text-gray-700 text-sm font-bold mb-2" for="username">Nome</label>
+                <input class="border-1 border-grey-300 rounded w-full p-2 text-gray-700 " type="text"
+                    placeholder="Seu nome">
+
+            </div>
+            <div class="flex-col">
+                <label class=" text-left block text-gray-700 text-sm font-bold mb-2" for="email">E-mail</label>
+                <input class="border-1 border-grey-300 rounded w-full p-2 text-gray-700 " type="email"
+                    placeholder="voce@email.com">
+
+            </div>
+            <div class="flex-col">
+                <label class=" text-left block text-gray-700 text-sm font-bold mb-2" for="email">Senha</label>
+                <input class="border-1 border-grey-300 rounded w-full p-2 text-gray-700 " type="password"
+                    placeholder="**********">
+            </div>
+
+            <button class="p-2 bg-black text-white">Cadastrar</button>
+                <label class="text-gray-500 font-medium">Já tem conta?</label>
+                <a class="font-bold cursor-pointer ">Entrar</a>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
